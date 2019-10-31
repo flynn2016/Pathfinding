@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{91451B62-B9A4-A943-D3E9-5415E814EA3F}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Maps/Map_1.txt">
+    <Files>
+      <File FileName="Assets/Scripts/MapLoader.cs" Line="38" Column="1" />
+      <File FileName="Assets/Scripts/MapManager.cs" Line="22" Column="49" />
+      <File FileName="Assets/Maps/Map_1.txt" Line="1" Column="5" />
+      <File FileName="Assets/Maps/Map_2.txt" Line="6" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ProjectTile" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Maps" expanded="True">
+                <Node name="Map_1.txt" selected="True" />
+              </Node>
+              <Node name="Scripts" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="bdccc903-d11d-4712-aef1-338bcacd81bf" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
