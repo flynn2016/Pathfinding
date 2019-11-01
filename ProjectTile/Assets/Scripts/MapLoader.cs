@@ -31,7 +31,6 @@ public static class MapLoader
                 string[] temp_string = temp.Split();
                 for (int i = 0; i < map.row; i++)
                 {
-                    //Debug.Log(counter * row + i);
                     map.mapData[counter * row + i] = int.Parse(temp_string[i]);
                 }
             }
@@ -56,3 +55,5 @@ public struct Map
         mapData = new int[_col * _row];
     }
 }
+
+
