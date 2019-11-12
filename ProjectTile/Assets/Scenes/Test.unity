@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.5748171, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -26557,7 +26557,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 1e-45, y: 0.13708496, z: 1e-45, w: 0.2240121}
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -30584,7 +30584,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tile: {fileID: 11303193645369324, guid: a9dd6538e680e4ec48b15b62206ca3c7, type: 3}
-  map_index: 2
+  map_index: 4
 --- !u!4 &846077708
 Transform:
   m_ObjectHideFlags: 0
@@ -31612,8 +31612,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mapManager: {fileID: 846077707}
-  startPos: {x: 0, y: 0, z: 0}
-  endPos: {x: 9, y: 9, z: 9}
+  startPos: {x: 0, y: 9, z: 0}
+  endPos: {x: 9, y: 0, z: 9}
 --- !u!1 &851916848
 GameObject:
   m_ObjectHideFlags: 0

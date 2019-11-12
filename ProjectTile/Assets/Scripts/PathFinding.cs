@@ -11,6 +11,13 @@ public class PathFinding : MonoBehaviour
     List<Node> search_path = new List<Node>();
     int time_index;   
 
+    private void Start()
+    {
+        mapManager.map[(int)startPos.x, (int)startPos.y, (int)startPos.z]
+    .tile_transform.GetComponent<Renderer>().material.SetColor("_Color", new Color(1, 0, 0, 1));
+        mapManager.map[(int)endPos.x, (int)endPos.y, (int)endPos.z]
+    .tile_transform.GetComponent<Renderer>().material.SetColor("_Color", new Color(1, 0, 0, 1));
+    }
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
@@ -31,13 +38,11 @@ public class PathFinding : MonoBehaviour
     public void Find()
     {
         FindPath(mapManager.map, startPos, endPos);
-        InvokeRepeating("DrawSearchPath", 0f, 0.05f);
+        InvokeRepeating("DrawSearchPath", 0f, 0.03f);
     }
 
     void DrawPath()
     {
-        mapManager.map[(int)startPos.x, (int)startPos.y, (int)startPos.z]
-           .tile_transform.GetComponent<Renderer>().material.SetColor("_Color", new Color(1, 0, 0, 1));
         if (final_path != null)
         {
             foreach (Node path_tile in final_path)
